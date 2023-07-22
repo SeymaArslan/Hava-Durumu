@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1249845A2A6C49EF00C772C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124984592A6C49EF00C772C6 /* AppDelegate.swift */; };
+		1249845C2A6C49EF00C772C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1249845B2A6C49EF00C772C6 /* SceneDelegate.swift */; };
+		1249845E2A6C49EF00C772C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1249845D2A6C49EF00C772C6 /* ViewController.swift */; };
+		124984612A6C49EF00C772C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1249845F2A6C49EF00C772C6 /* Main.storyboard */; };
+		124984632A6C49F000C772C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124984622A6C49F000C772C6 /* Assets.xcassets */; };
+		124984662A6C49F000C772C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124984642A6C49F000C772C6 /* LaunchScreen.storyboard */; };
+		124984712A6C49F100C772C6 /* Hava_DurumuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124984702A6C49F100C772C6 /* Hava_DurumuTests.swift */; };
+		1249847B2A6C49F100C772C6 /* Hava_DurumuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1249847A2A6C49F100C772C6 /* Hava_DurumuUITests.swift */; };
+		1249847D2A6C49F100C772C6 /* Hava_DurumuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1249847C2A6C49F100C772C6 /* Hava_DurumuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1249846D2A6C49F100C772C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1249844E2A6C49EF00C772C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 124984552A6C49EF00C772C6;
+			remoteInfo = "Hava Durumu";
+		};
+		124984772A6C49F100C772C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1249844E2A6C49EF00C772C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 124984552A6C49EF00C772C6;
+			remoteInfo = "Hava Durumu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		124984562A6C49EF00C772C6 /* Hava Durumu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hava Durumu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124984592A6C49EF00C772C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1249845B2A6C49EF00C772C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1249845D2A6C49EF00C772C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		124984602A6C49EF00C772C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		124984622A6C49F000C772C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		124984652A6C49F000C772C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		124984672A6C49F000C772C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1249846C2A6C49F100C772C6 /* Hava DurumuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hava DurumuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124984702A6C49F100C772C6 /* Hava_DurumuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hava_DurumuTests.swift; sourceTree = "<group>"; };
+		124984762A6C49F100C772C6 /* Hava DurumuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hava DurumuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1249847A2A6C49F100C772C6 /* Hava_DurumuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hava_DurumuUITests.swift; sourceTree = "<group>"; };
+		1249847C2A6C49F100C772C6 /* Hava_DurumuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hava_DurumuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		124984532A6C49EF00C772C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124984692A6C49F100C772C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124984732A6C49F100C772C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1249844D2A6C49EF00C772C6 = {
+			isa = PBXGroup;
+			children = (
+				124984582A6C49EF00C772C6 /* Hava Durumu */,
+				1249846F2A6C49F100C772C6 /* Hava DurumuTests */,
+				124984792A6C49F100C772C6 /* Hava DurumuUITests */,
+				124984572A6C49EF00C772C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		124984572A6C49EF00C772C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				124984562A6C49EF00C772C6 /* Hava Durumu.app */,
+				1249846C2A6C49F100C772C6 /* Hava DurumuTests.xctest */,
+				124984762A6C49F100C772C6 /* Hava DurumuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		124984582A6C49EF00C772C6 /* Hava Durumu */ = {
+			isa = PBXGroup;
+			children = (
+				124984592A6C49EF00C772C6 /* AppDelegate.swift */,
+				1249845B2A6C49EF00C772C6 /* SceneDelegate.swift */,
+				1249845D2A6C49EF00C772C6 /* ViewController.swift */,
+				1249845F2A6C49EF00C772C6 /* Main.storyboard */,
+				124984622A6C49F000C772C6 /* Assets.xcassets */,
+				124984642A6C49F000C772C6 /* LaunchScreen.storyboard */,
+				124984672A6C49F000C772C6 /* Info.plist */,
+			);
+			path = "Hava Durumu";
+			sourceTree = "<group>";
+		};
+		1249846F2A6C49F100C772C6 /* Hava DurumuTests */ = {
+			isa = PBXGroup;
+			children = (
+				124984702A6C49F100C772C6 /* Hava_DurumuTests.swift */,
+			);
+			path = "Hava DurumuTests";
+			sourceTree = "<group>";
+		};
+		124984792A6C49F100C772C6 /* Hava DurumuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1249847A2A6C49F100C772C6 /* Hava_DurumuUITests.swift */,
+				1249847C2A6C49F100C772C6 /* Hava_DurumuUITestsLaunchTests.swift */,
+			);
+			path = "Hava DurumuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		124984552A6C49EF00C772C6 /* Hava Durumu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124984802A6C49F100C772C6 /* Build configuration list for PBXNativeTarget "Hava Durumu" */;
+			buildPhases = (
+				124984522A6C49EF00C772C6 /* Sources */,
+				124984532A6C49EF00C772C6 /* Frameworks */,
+				124984542A6C49EF00C772C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hava Durumu";
+			productName = "Hava Durumu";
+			productReference = 124984562A6C49EF00C772C6 /* Hava Durumu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1249846B2A6C49F100C772C6 /* Hava DurumuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124984832A6C49F100C772C6 /* Build configuration list for PBXNativeTarget "Hava DurumuTests" */;
+			buildPhases = (
+				124984682A6C49F100C772C6 /* Sources */,
+				124984692A6C49F100C772C6 /* Frameworks */,
+				1249846A2A6C49F100C772C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1249846E2A6C49F100C772C6 /* PBXTargetDependency */,
+			);
+			name = "Hava DurumuTests";
+			productName = "Hava DurumuTests";
+			productReference = 1249846C2A6C49F100C772C6 /* Hava DurumuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		124984752A6C49F100C772C6 /* Hava DurumuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124984862A6C49F100C772C6 /* Build configuration list for PBXNativeTarget "Hava DurumuUITests" */;
+			buildPhases = (
+				124984722A6C49F100C772C6 /* Sources */,
+				124984732A6C49F100C772C6 /* Frameworks */,
+				124984742A6C49F100C772C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				124984782A6C49F100C772C6 /* PBXTargetDependency */,
+			);
+			name = "Hava DurumuUITests";
+			productName = "Hava DurumuUITests";
+			productReference = 124984762A6C49F100C772C6 /* Hava DurumuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1249844E2A6C49EF00C772C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					124984552A6C49EF00C772C6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1249846B2A6C49F100C772C6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 124984552A6C49EF00C772C6;
+					};
+					124984752A6C49F100C772C6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 124984552A6C49EF00C772C6;
+					};
+				};
+			};
+			buildConfigurationList = 124984512A6C49EF00C772C6 /* Build configuration list for PBXProject "Hava Durumu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1249844D2A6C49EF00C772C6;
+			productRefGroup = 124984572A6C49EF00C772C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				124984552A6C49EF00C772C6 /* Hava Durumu */,
+				1249846B2A6C49F100C772C6 /* Hava DurumuTests */,
+				124984752A6C49F100C772C6 /* Hava DurumuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		124984542A6C49EF00C772C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124984662A6C49F000C772C6 /* LaunchScreen.storyboard in Resources */,
+				124984632A6C49F000C772C6 /* Assets.xcassets in Resources */,
+				124984612A6C49EF00C772C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1249846A2A6C49F100C772C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124984742A6C49F100C772C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		124984522A6C49EF00C772C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1249845E2A6C49EF00C772C6 /* ViewController.swift in Sources */,
+				1249845A2A6C49EF00C772C6 /* AppDelegate.swift in Sources */,
+				1249845C2A6C49EF00C772C6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124984682A6C49F100C772C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124984712A6C49F100C772C6 /* Hava_DurumuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124984722A6C49F100C772C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1249847D2A6C49F100C772C6 /* Hava_DurumuUITestsLaunchTests.swift in Sources */,
+				1249847B2A6C49F100C772C6 /* Hava_DurumuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1249846E2A6C49F100C772C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 124984552A6C49EF00C772C6 /* Hava Durumu */;
+			targetProxy = 1249846D2A6C49F100C772C6 /* PBXContainerItemProxy */;
+		};
+		124984782A6C49F100C772C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 124984552A6C49EF00C772C6 /* Hava Durumu */;
+			targetProxy = 124984772A6C49F100C772C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1249845F2A6C49EF00C772C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				124984602A6C49EF00C772C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		124984642A6C49F000C772C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				124984652A6C49F000C772C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1249847E2A6C49F100C772C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1249847F2A6C49F100C772C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		124984812A6C49F100C772C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CG2DGVAM4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hava Durumu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seymarslan.Hava-Durumu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		124984822A6C49F100C772C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CG2DGVAM4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hava Durumu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seymarslan.Hava-Durumu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		124984842A6C49F100C772C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CG2DGVAM4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seymarslan.Hava-DurumuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hava Durumu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hava Durumu";
+			};
+			name = Debug;
+		};
+		124984852A6C49F100C772C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CG2DGVAM4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seymarslan.Hava-DurumuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hava Durumu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hava Durumu";
+			};
+			name = Release;
+		};
+		124984872A6C49F100C772C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CG2DGVAM4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seymarslan.Hava-DurumuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hava Durumu";
+			};
+			name = Debug;
+		};
+		124984882A6C49F100C772C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CG2DGVAM4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seymarslan.Hava-DurumuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hava Durumu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		124984512A6C49EF00C772C6 /* Build configuration list for PBXProject "Hava Durumu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1249847E2A6C49F100C772C6 /* Debug */,
+				1249847F2A6C49F100C772C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124984802A6C49F100C772C6 /* Build configuration list for PBXNativeTarget "Hava Durumu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124984812A6C49F100C772C6 /* Debug */,
+				124984822A6C49F100C772C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124984832A6C49F100C772C6 /* Build configuration list for PBXNativeTarget "Hava DurumuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124984842A6C49F100C772C6 /* Debug */,
+				124984852A6C49F100C772C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124984862A6C49F100C772C6 /* Build configuration list for PBXNativeTarget "Hava DurumuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124984872A6C49F100C772C6 /* Debug */,
+				124984882A6C49F100C772C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1249844E2A6C49EF00C772C6 /* Project object */;
+}
